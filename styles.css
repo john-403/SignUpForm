@@ -109,6 +109,7 @@ section {
 
 body {
     line-height: 1;
+    /* display: flex; */
 }
 
 ol,
@@ -139,7 +140,7 @@ table {
     src: url(fonts/Norse-Bold.otf);
 }
 
-p {
+#left_container p {
     font-family: Norse;
 }
 
@@ -188,4 +189,32 @@ p {
 .logo p {
     color: white;
     font-size: 88px;
+}
+
+#right_container {
+    width: 55%;
+    margin-left: 45%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#right_container p {
+    margin-left: 2em;
+    margin-right: 8em;
+}
+
+#right_content p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#right_content p:nth-child(2) {
+    margin-top: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#right_content span {
+    font-style: italic;
 }
