@@ -26,7 +26,49 @@
                 You <span>know</span> you want to.
             </p>
         </div>
+        <div class="form_container">
+            <p>Let's Do This!</p>
+            <form action="">
+                <ul>
+                    <li>
+                        <div class="wrap left">
+                            <label for="firstName" class="left">First Name</label>
+                            <input type="text" name="firstName" id="firstName" class="left">
+                        </div>
+                        <div class="wrap right">
+                            <label for="lastName" class="right">Last Name</label>
+                            <input type="text" name="lastName" id="lastName" class="right">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap left">
+                            <label for="email" class="left">Email</label>
+                            <input type="email" name="email" id="email" class="left">
+                        </div>
+                        <div class="wrap right">
+                            <label for="number" class="right">Phone Number</label>
+                            <input type="text" name="number" id="number" class="right">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap left">
+                            <label for="password" class="left">Password</label>
+                            <input type="password" name="password" id="password" class="left" onkeyup='check();'>
+                        </div>
+                        <div class="wrap right">
+                            <label for="confirmPassword" class="right">Confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" class="right"
+                                onkeyup='check();'>
+                        </div>
+                    </li>
+                </ul>
+
+            </form>
+        </div>
+        <button>Create Account</button>
+        <p>Already Have an Account? <a href="">Log in</a></p>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
